@@ -10,6 +10,7 @@ def work():
     urls = [
         'https://leoxiang6-io-server.onrender.com',
         'https://fmbot.onrender.com',
+        'https://gradioapp.adaptingx.repl.co/',
     ]
     
     while True:
@@ -19,12 +20,7 @@ def work():
         count+=1
         print(count)
         time.sleep(600)
-#     loop.wait_all_done()
-#     tmp = "\n".join(urls)
-#     return f'''
-# **Done!**
-# {tmp}
-# '''
+
 
 with gr.Blocks() as app:
     btn = gr.Button('Start')
