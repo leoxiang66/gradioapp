@@ -7,7 +7,7 @@ gr_L1 = lambda: gr.Row().style()
 gr_L2 = lambda scale: gr.Column(scale=scale)
 
 LAYOUT = "TOP-DOWN"
-with gr.Blocks(title="ChatGPT 学术优化",
+with gr.Blocks(title="Chatbot X - Your Intro",
                analytics_enabled=False,
                ) as app:
     gr.HTML(f"<h1 align=\"center\">Chatbot App</h1>")
